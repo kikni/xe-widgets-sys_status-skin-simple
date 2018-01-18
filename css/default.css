@@ -1,0 +1,23 @@
+.miznkiz_simple_counter { width:100%; overflow:hidden; position:relative; text-align:left; font-family:tahoma; }
+
+/* 타이틀 설정 */
+.miznkiz_simple_counter .counter_page  { padding-top:0px; }
+.miznkiz_simple_counter .counter_visitor  { padding:0px 0px 0px 0px; }
+.miznkiz_simple_counter .miznkiz_simple_col_000 .title { font-size:.9em; color:#777777; }
+.miznkiz_simple_counter .miznkiz_simple_col_001 .title { font-size:.9em; color:#777777; }
+.miznkiz_simple_counter .miznkiz_simple_col_002 .title { font-size:.9em; color:#777777; }
+.miznkiz_simple_counter .miznkiz_simple_col_003 .title { font-size:.9em; color:#777777; }
+.miznkiz_simple_counter .miznkiz_simple_col_004 .title { font-size:.9em; color:#777777; }
+.miznkiz_simple_counter .miznkiz_simple_col_005 .title { font-size:.9em; color:#777777; }
+.miznkiz_simple_counter .miznkiz_simple_col_006 .title { font-size:.9em; color:#777777; }
+.miznkiz_simple_counter .miznkiz_simple_col_007 .title { font-size:.9em; color:#777777; }
+.miznkiz_simple_counter .miznkiz_simple_col_008 .title { font-size:.9em; color:#777777; }
+.miznkiz_simple_counter .miznkiz_simple_col_009 .title { font-size:.9em; color:#777777; }
+
+/* 카운터 표시 숫자*/
+.miznkiz_simple_counter span.yesterday      { font-size:.9em; color:#777777 ; }
+.miznkiz_simple_counter span.today 		 { font-size:.9em; color:#777777 ; }
+.miznkiz_simple_counter span.total 		 { font-size:.9em; color:#777777 ; }
+
+/* 카운트 항목표시 */
+.miznkiz_simple_counter .item span { font-size:.9em;}

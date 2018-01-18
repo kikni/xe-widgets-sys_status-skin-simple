@@ -1,0 +1,37 @@
+<?php if(!defined("__ZBXE__")) exit(); ?>
+<!--@if(($args->admin_print  == "Y" && $logged_info->is_admin == 'Y') || ($args->admin_print == 'N' || !$args->admin_print))-->
+<!--%import("css/default.css")-->
+<div class="miznkiz_simple_counter">
+	<div class="miznkiz_simple_{$colorset}">
+		<div class="counter_page">
+			<!--@if($data_info->data_type  == "0")-->
+			<span class="today"><strong>HOME</strong>&nbsp;&nbsp;Busy : <strong>{$data_info->data_hard + 0} MB&nbsp;</strong></span>
+			<!--@elseif($data_info->data_type == "1")-->
+			<span class="today"><strong>HOME</strong>&nbsp;&nbsp;Busy : <strong>{$data_info->data_hard + 0} MB&nbsp;</strong></span>
+			<span class="yesterday">Free : <strong>{$data_info->data_hard2 + 0} MB&nbsp;</strong></span>
+			<!--@elseif($data_info->data_type == "2")-->
+			<span class="today"><strong>HOME</strong>&nbsp;&nbsp;Busy : <strong>{$data_info->data_hard + 0} MB&nbsp;</strong></span>
+			<span class="total">Total : <strong>{$data_info->data_hard3 + 0} MB&nbsp;</strong></span>
+			<!--@elseif($data_info->data_type == "3")-->
+			<span class="today"><strong>HOME</strong>&nbsp;&nbsp;Free : <strong>{$data_info->data_hard2 + 0} MB&nbsp;</strong></span>
+			<span class="total">Total : <strong>{$data_info->data_hard3 + 0} MB&nbsp;</strong></span>
+			<!--@elseif($data_info->data_type == "4")-->
+			<!--@else-->
+			<span class="today"><strong>HOME</strong>&nbsp;&nbsp;Busy : <strong>{$data_info->data_hard + 0} MB&nbsp;</strong></span>
+			<!--@end-->
+			<br>
+			<!--@if($data_info->db_type  == "0")-->
+			<span class="today"><strong>DB</strong>&nbsp;&nbsp;Busy : <strong>{$data_info->db_hard + 0} MB&nbsp;</strong></span>
+			<span class="total">Total : <strong>FREE&nbsp;</strong></span>
+			<!--@elseif($data_info->db_type == "1")-->
+			<!--@else-->
+			<span class="today"><strong>DB</strong>&nbsp;&nbsp;Busy : <strong>{$data_info->db_hard + 0} MB&nbsp;</strong></span>
+			<span class="total">Total : <strong>FREE&nbsp;</strong></span>
+			<!--@end-->
+		</div>
+	</div>
+</div>
+<!--@end-->
+
+
+
